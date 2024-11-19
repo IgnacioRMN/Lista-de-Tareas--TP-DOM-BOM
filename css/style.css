@@ -1,0 +1,127 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #269e85;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  background-color: #269e85;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#inputTarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #269e85;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  color: #269e85;
+  transition: border-color 0.3s ease;
+}
+
+#inputTarea::placeholder {
+  color: #001a23;
+}
+
+#inputTarea:focus {
+  outline: none;
+  border-color: #001a23;
+  box-shadow: 0 0 5px rgba(0, 26, 35, 0.5);
+}
+
+#botonAgregar {
+  width: 100%;
+  padding: 12px;
+  background-color: #001a23;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#botonAgregar:hover {
+  background-color: #207c68;
+  transform: scale(1.05);
+}
+
+#listaTareas {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.tarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 5px 0;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tarea:hover {
+  background-color: #e0e0e0;
+}
+
+.tarea span {
+  font-size: 1.1rem;
+  color: #269e85;
+  font-weight: 600;
+}
+
+.tarea button {
+  background-color: #001a23;
+  color: #269e85;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tarea button:hover {
+  background-color: #003240;
+  transform: scale(1.1);
+}
+
+#listaTareas {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: #269e85;
+}
